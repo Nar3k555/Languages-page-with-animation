@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page with Animation</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/source/scss/style.css" />
+</head>
+
+<body>
+    <section class="hero-section" id="top">
+        <div class="animated-bg" aria-hidden="true">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="badge">
+                <span class="badge__icon">✦</span>
+                <span>CSS Fundamentals Learning Kit</span>
+            </div>
+
+            <h1 class="hero-title">
+                Master CSS Concepts with Interactive Examples
+            </h1>
+
+            <p class="hero-subtitle">
+                A comprehensive landing page showcasing selectors, box model, backgrounds,
+                flexbox, grid, animations, media queries, tables, and testimonials.
+            </p>
+
+            <div class="cta-buttons">
+                <a class="btn btn-primary" href="#pricing">
+                    Get Started <span class="btn-arrow">→</span>
+                </a>
+                <a class="btn btn-secondary" href="#features">View Examples</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" style="animation-delay: 0s">
+                    <div class="stat-icon stat-icon--blue">👥</div>
+                    <div class="stat-value">10,000+</div>
+                    <div class="stat-label">Students Enrolled</div>
+                </div>
+
+                <div class="stat-card" style="animation-delay: 0.1s">
+                    <div class="stat-icon stat-icon--purple">🏆</div>
+                    <div class="stat-value">50+</div>
+                    <div class="stat-label">CSS Concepts</div>
+                </div>
+
+                <div class="stat-card" style="animation-delay: 0.2s">
+                    <div class="stat-icon stat-icon--pink">📚</div>
+                    <div class="stat-value">100+</div>
+                    <div class="stat-label">Code Examples</div>
+                </div>
+
+                <div class="stat-card" style="animation-delay: 0.3s">
+                    <div class="stat-icon stat-icon--yellow">⭐</div>
+                    <div class="stat-value">4.9/5</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">CSS Concepts Covered</h2>
+                <p class="section-subtitle">
+                    Explore fundamental CSS topics with practical, real-world examples
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card reveal" style="animation-delay:0s">
+                    <div class="feature-icon grad-blue">▦</div>
+                    <h3 class="feature-title">Flexbox Mastery</h3>
+                    <p class="feature-description">Learn flexible box layouts for responsive designs</p>
+                    <div class="feature-decoration"></div>
+                </article>
+
+                <article class="feature-card reveal" style="animation-delay:0.1s">
+                    <div class="feature-icon grad-purple">▧</div>
+                    <h3 class="feature-title">CSS Grid</h3>
+                    <p class="feature-description">Master two-dimensional grid layouts</p>
+                    <div class="feature-decoration"></div>
+                </article>
+
+                <article class="feature-card reveal" style="animation-delay:0.2s">
+                    <div class="feature-icon grad-pink">▣</div>
+                    <h3 class="feature-title">Box Model</h3>
+                    <p class="feature-description">Understand margin, padding, border, and content</p>
+                    <div class="feature-decoration"></div>
+                </article>
+
+                <article class="feature-card reveal" style="animation-delay:0.3s">
+                    <div class="feature-icon grad-orange">⚡</div>
+                    <h3 class="feature-title">Animations</h3>
+                    <p class="feature-description">Create smooth transitions and keyframe animations</p>
+                    <div class="feature-decoration"></div>
+                </article>
+
+                <article class="feature-card reveal" style="animation-delay:0.4s">
+                    <div class="feature-icon grad-green">📱</div>
+                    <h3 class="feature-title">Media Queries</h3>
+                    <p class="feature-description">Build responsive designs for all devices</p>
+                    <div class="feature-decoration"></div>
+                </article>
+
+                <article class="feature-card reveal" style="animation-delay:0.5s">
+                    <div class="feature-icon grad-indigo">⌁</div>
+                    <h3 class="feature-title">Selectors</h3>
+                    <p class="feature-description">Target elements with precision using CSS selectors</p>
+                    <div class="feature-decoration"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">Pricing Comparison Table</h2>
+                <p class="section-subtitle">A demonstration of HTML tables with CSS styling</p>
+            </div>
+
+            <div class="table-container reveal">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th class="feature-column">Features</th>
+                            <th class="plan-column basic">Basic</th>
+                            <th class="plan-column pro">Pro</th>
+                            <th class="plan-column enterprise">Enterprise</th>
+                        </tr>
+                        <tr class="price-row">
+                            <td></td>
+                            <td class="price">$0<span>/month</span></td>
+                            <td class="price popular">$29<span>/month</span></td>
+                            <td class="price">$99<span>/month</span></td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="feature-name">CSS Fundamentals</td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Box Model Deep Dive</td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Flexbox Tutorials</td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Grid Layout Mastery</td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Advanced Animations</td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Responsive Design Patterns</td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Custom Selector Strategies</td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">1-on-1 Support</td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-x">✕</span></td>
+                            <td><span class="icon-check">✓</span></td>
+                        </tr>
+
+                        <tr class="cta-row">
+                            <td></td>
+                            <td><button class="table-btn btn-basic">Start Free</button></td>
+                            <td><button class="table-btn btn-pro">Get Pro</button></td>
+                            <td><button class="table-btn btn-enterprise">Contact Sales</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-head reveal center">
+                <h2 class="section-title">What Students Say</h2>
+                <p class="section-subtitle">Testimonials with smooth animations and transitions</p>
+            </div>
+
+            <div class="testimonial-showcase" data-testimonials>
+                <article class="testimonial-card active" data-card="0">
+                    <div class="quote-icon" aria-hidden="true">❝</div>
+
+                    <div class="stars" aria-label="5 star rating">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                            class="star">★</span><span class="star">★</span>
+                    </div>
+
+                    <p class="testimonial-text">
+                        This CSS learning platform transformed my understanding of layout systems. The animations and
+                        interactive examples made complex concepts so much easier to grasp!
+                    </p>
+
+                    <div class="testimonial-author">
+                        <img class="author-image" alt="Sarah Johnson" src="https://i.pravatar.cc/200?img=47" />
+                        <div class="author-info">
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-role">Frontend Developer at TechCorp</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card next" data-card="1">
+                    <div class="quote-icon" aria-hidden="true">❝</div>
+
+                    <div class="stars" aria-label="5 star rating">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                            class="star">★</span><span class="star">★</span>
+                    </div>
+
+                    <p class="testimonial-text">
+                        The media query examples helped me create truly responsive designs. I especially loved the
+                        practical demonstrations of flexbox and grid layouts.
+                    </p>
+
+                    <div class="testimonial-author">
+                        <img class="author-image" alt="Michael Chen" src="https://i.pravatar.cc/200?img=12" />
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-role">UI/UX Designer at DesignHub</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card next" data-card="2">
+                    <div class="quote-icon" aria-hidden="true">❝</div>
+
+                    <div class="stars" aria-label="5 star rating">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                            class="star">★</span><span class="star">★</span>
+                    </div>
+
+                    <p class="testimonial-text">
+                        As someone transitioning into web development, this resource was invaluable. The box model
+                        explanations finally clicked for me after years of confusion!
+                    </p>
+
+                    <div class="testimonial-author">
+                        <img class="author-image" alt="Emily Rodriguez" src="https://i.pravatar.cc/200?img=32" />
+                        <div class="author-info">
+                            <div class="author-name">Emily Rodriguez</div>
+                            <div class="author-role">Web Developer at StartupXYZ</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card next" data-card="3">
+                    <div class="quote-icon" aria-hidden="true">❝</div>
+
+                    <div class="stars" aria-label="5 star rating">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+                            class="star">★</span><span class="star">★</span>
+                    </div>
+
+                    <p class="testimonial-text">
+                        The animation techniques and selector strategies I learned here have made my projects stand out.
+                        Highly recommend for developers at any level!
+                    </p>
+
+                    <div class="testimonial-author">
+                        <img class="author-image" alt="David Kumar" src="https://i.pravatar.cc/200?img=59" />
+                        <div class="author-info">
+                            <div class="author-name">David Kumar</div>
+                            <div class="author-role">Full Stack Engineer at InnovateLabs</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="testimonial-dots">
+                <button class="dot active" data-dot="0" aria-label="Go to testimonial 1"></button>
+                <button class="dot" data-dot="1" aria-label="Go to testimonial 2"></button>
+                <button class="dot" data-dot="2" aria-label="Go to testimonial 3"></button>
+                <button class="dot" data-dot="3" aria-label="Go to testimonial 4"></button>
+            </div>
+
+            <div class="testimonial-thumbnails">
+                <button class="thumbnail active" data-thumb="0">
+                    <img class="thumbnail-image" alt="Sarah Johnson" src="https://i.pravatar.cc/200?img=47" />
+                    <div class="thumbnail-overlay"><span class="thumbnail-name">Sarah</span></div>
+                </button>
+
+                <button class="thumbnail" data-thumb="1">
+                    <img class="thumbnail-image" alt="Michael Chen" src="https://i.pravatar.cc/200?img=12" />
+                    <div class="thumbnail-overlay"><span class="thumbnail-name">Michael</span></div>
+                </button>
+
+                <button class="thumbnail" data-thumb="2">
+                    <img class="thumbnail-image" alt="Emily Rodriguez" src="https://i.pravatar.cc/200?img=32" />
+                    <div class="thumbnail-overlay"><span class="thumbnail-name">Emily</span></div>
+                </button>
+
+                <button class="thumbnail" data-thumb="3">
+                    <img class="thumbnail-image" alt="David Kumar" src="https://i.pravatar.cc/200?img=59" />
+                    <div class="thumbnail-overlay"><span class="thumbnail-name">David</span></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="brand-title">CSS Mastery</h3>
+                    <p class="brand-description">
+                        Learn CSS fundamentals through interactive examples and real-world applications.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub">⌂</a>
+                        <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link" aria-label="Email">@</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4 class="links-title">Product</h4>
+                    <ul class="links-list">
+                        <li><a href="#features" class="footer-link">Features</a></li>
+                        <li><a href="#pricing" class="footer-link">Pricing</a></li>
+                        <li><a href="#features" class="footer-link">Tutorials</a></li>
+                        <li><a href="#features" class="footer-link">Documentation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4 class="links-title">Company</h4>
+                    <ul class="links-list">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4 class="links-title">Resources</h4>
+                    <ul class="links-list">
+                        <li><a href="#" class="footer-link">CSS Guide</a></li>
+                        <li><a href="#" class="footer-link">Examples</a></li>
+                        <li><a href="#" class="footer-link">Community</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4 class="links-title">Legal</h4>
+                    <ul class="links-list">
+                        <li><a href="#" class="footer-link">Privacy</a></li>
+                        <li><a href="#" class="footer-link">Terms</a></li>
+                        <li><a href="#" class="footer-link">License</a></li>
+                        <li><a href="#" class="footer-link">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 CSS Mastery. All rights reserved.</p>
+                <p class="made-with">Made with <span class="heart-icon">♥</span> for learning</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/source/js/script.js"></script>
+</body>
+
+</html>
